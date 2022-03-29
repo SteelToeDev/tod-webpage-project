@@ -6,4 +6,164 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
 
+.navbar {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 3rem;
+  justify-content: flex-end;
+  background-color: #1f2937;
+  align-items: center;
+}
+
+.navbar :nth-child(4) {
+  padding-right: 10rem;
+}
+.logo {
+  display: flex;
+  margin-right: auto;
+  margin-left: 10rem;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.nav-link {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero {
+  display: flex;
+  padding: 5rem 10rem;
+  background-color: #1f2937;
+  justify-content: center;
+}
+
+.hero-head {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.hero-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero-img {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: normal;
+}
+.hero-left {
+  flex: 1;
+  max-width: 50%;
+}
+.hero-right {
+  background-color: #6d747d;
+  padding: 5rem;
+}
+.sign-up {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.showcase-head {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 2rem;
+}
+.showcase {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  border: 5px solid #3882f6;
+  height: 175px;
+  width: 175px;
+  border-radius: 25px;
+}
+.showcase-text {
+  margin-top: 10px;
+  text-align: center;
+  max-width: 175px;
+  color: #1f2937;
+  font-size: 18px;
+}
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  max-width: 45ch;
+  text-align: center;
+  margin-right: -15rem;
+}
+.quote :nth-child(2) {
+  margin-top: auto;
+}
+.quote-name {
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  max-width: 80%;
+  padding: 5rem;
+  margin: 5rem 15%;
+  border-radius: 10px;
+}
+
+.cta-head {
+  color: #f9faf8;
+}
+
+.cta-text {
+  color: #f9faf8;
+  font-weight: 300;
+}
+
+.cta-btn {
+  border: 2px solid #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #1f2937;
+  margin-bottom: 0;
+}
+
+.copyright {
+  color: #e5e7eb;
+  text-align: center;
+  padding: 100px;
+  box-shadow: 0 50vh 0 50vh #000;
+}
